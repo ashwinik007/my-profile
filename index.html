@@ -10,7 +10,25 @@
         background-color: beige;
         color: chocolate;
       }
-      
+      .para{
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+      .fa{
+        color: blue;
+        font-size: x-large;
+      }
+      span{
+        color: blue;
+        font-style: italic;
+        font-size: x-large;
+      }
+      #copyright{
+        text-align: justify;
+        text-decoration-color: black;
+        color: rgb(53, 26, 160);font-size: large;
+        font-weight: 300;
+      }
     </style>
   
   </head>
@@ -32,18 +50,18 @@
     <br>
     <br>
     <nav>
-    <a href="home.html" target="myFrame"> Home </a> &nbsp;&nbsp;&nbsp;
-    <a href="techStack.html" target="myFrame"> Tech Stack </a> &nbsp;&nbsp;&nbsp;
-    <a href="project.html" target="myFrame"> Project </a> &nbsp;&nbsp;&nbsp;
-    <a href="education.html" target="myFrame"> Education </a> &nbsp;&nbsp;&nbsp;
-    <a href="aboutMe.html" target="myFrame"> About Me </a> &nbsp;&nbsp;&nbsp;
+    <a href="home.html" target="myFrame" class="para"> Home </a> &nbsp;&nbsp;&nbsp;
+    <a href="techStack.html" target="myFrame" class="para"> Tech Stack </a> &nbsp;&nbsp;&nbsp;
+    <a href="project.html" target="myFrame" class="para"> Project </a> &nbsp;&nbsp;&nbsp;
+    <a href="education.html" target="myFrame" class="para"> Education </a> &nbsp;&nbsp;&nbsp;
+    <a href="aboutMe.html" target="myFrame" class="para">  About Me </a> &nbsp;&nbsp;&nbsp;
   </nav>
     <br>
     <br> 
-    <iframe width="600px" height="500px" src="home.html" name="myFrame"> </iframe>
+    <iframe width="600px" height="400px" src="home.html" name="myFrame"> </iframe>
 <br> 
 <footer>
-  <span> <strong> Follow me </strong> </span> &nbsp;&nbsp;&nbsp;&nbsp;
+  <span> <strong> <span> Follow me </span>  </strong> </span> &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://twitter.com/i/flow/login?lang=en" target="blank">
     <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -62,7 +80,7 @@
 
   <a href="https://github.com/login/" target="blank">
     <i class="fa fa-github" aria-hidden="true"></i></a>
-    <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
+    <p id="copyright"> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
 </footer>
     </body>
 </html>
