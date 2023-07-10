@@ -6,9 +6,11 @@
     <title> My Profile </title>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <style>
-      header{
+      header ol li {
         background-color: beige;
-        color: chocolate;
+        color: rgb(29, 33, 245);
+        display: inline-block;
+        width: 300px
       }
       .para{
         text-transform: uppercase;
@@ -20,6 +22,9 @@
         font-size: x-large;
         margin-right: 20px;
         padding-top: 20px;
+        padding-bottom: 20px;
+        display: inline-block;
+        width: 50px
       }
       span{
         color: blue;
@@ -34,53 +39,52 @@
         font-weight: 300;
         margin-top:40px;
       }
-      
+      nav ul li{
+        display: inline-block;
+        width: 100px
+        text-transform: uppercase;
+     }
+     .resume{
+      border: 2px solid rgb(16, 138, 219); 
+      background-color: cornflowerblue;
+      text-align: center;
+     }
     </style>
-  
   </head>
   <body>
-  
     <br>
    <header> 
-    <i class="fa fa-phone-square" aria-hidden="true"></i>
-    <a> Ashwini Kurapatti </a> 
-    <i class="fa fa-user" aria-hidden="true"></i>
-    <a> 9767583559 </a> 
-    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-    <a> ashwinik007@rediffmail.com </a> 
-    <i class="fa fa-solid fa-download" aria-hidden="true"></i>
-    <a> Resume </a>
+    <ol>
+      <li> <i class="fa fa-phone-square" aria-hidden="true"></i>
+        <a> Ashwini Kurapatti </a> </li>
+      <li> <i class="fa fa-user" aria-hidden="true"></i>
+        <a> 9767583559 </a> </li>
+      <li> <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <a> ashwinik007@rediffmail.com </a> </li>
+      <li class="resume"> <i class="fa fa-solid fa-download" aria-hidden="true"></i>
+        <a> Resume </a></li>
+      </ol>
   </header>
-    <br>
-    <br>
     <nav>
-    <a href="home.html" target="myFrame" class="para"> Home </a> 
-    <a href="techStack.html" target="myFrame" class="para"> Tech Stack </a> 
-    <a href="project.html" target="myFrame" class="para"> Project </a> 
-    <a href="education.html" target="myFrame" class="para"> Education </a> 
-    <a href="aboutMe.html" target="myFrame" class="para">  About Me </a> 
-  </nav>
-    <br>
-    <br> 
-    <iframe width="600px" height="400px" src="home.html" name="myFrame"> </iframe>
-<br> 
+      <ul>
+        <li> <a href="home.html" target="myFrame" class="para"> Home </a> </li>
+        <li> <a href="techStack.html" target="myFrame" class="para"> Tech Stack </a> </li>
+        <li> <a href="project.html" target="myFrame" class="para"> Project </a> </li>
+        <li> <a href="education.html" target="myFrame" class="para"> Education </a> </li>
+        <li> <a href="aboutMe.html" target="myFrame" class="para">  About Me </a> </li>
+      </ul>
+  </nav>  
+      <iframe width="950px" height="400px" src="home.html" name="myFrame"> </iframe>
 <footer>
   <span> <strong> <span> Follow me </span>  </strong> </span> 
   <a href="https://twitter.com/i/flow/login?lang=en" target="blank">
     <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
- 
-
   <a href="https://www.facebook.com/" target="blank">
     <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
- 
-
   <a href="https://www.instagram.com/accounts/login/" target="_blank">
     <i class="fa fa-instagram" aria-hidden="true"></i></a>
-  
-
   <a href="https://www.google.com/" target="blank">
     <i class="fa fa-google" aria-hidden="true"></i></a>
-  
   <a href="https://github.com/login/" target="blank">
     <i class="fa fa-github" aria-hidden="true"></i></a>
     <p id="copyright"> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
