@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+   <style>
+    .container{
+        background-color: beige;
+        display: inline-block;
+    }
+     #image{      
+        width: 300px;
+        height: 300px;}
+    .photo-section{
+        display: inline-block;
+       text-align: center;
+       background-color: beige;
+    }
+    #para{
+        font-family: 'Roboto', sans-serif;
+        
+        font-weight: normal;
+        color: blue;
+    }
+    #para1{
+        font-family: 'Roboto', sans-serif;
+        font-size: larger;
+        font-weight: normal;
+        color: blue;
+    }
+    #follow{
+        color: blue;
+        font-style: italic;   
+    }
+    .fa{
+        color: blue;
+        font-style: italic;
+    }
+    .content-section{
+        display: inline-block;
+        color: rgb(55, 30, 30);
+        font-family: 'Roboto Serif', serif;
+    }
+    .points li{
+        padding: 10px;
+        list-style-type: none;
+        font-style: ;
+    }
+    .points li::before{
+        content: "✍️";
+    }
+    .points:hover{
+        background-color: cadetblue;
+    }
+    .points::selection{
+    color: blue;
+   }
+   </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="photo-section">
+            <img src="Image 1.jpg" id="image"><br>
+            <br>
+            <i class="fa fa-cog" aria-hidden="true"></i>
+            <span id="para"> Powered by </span><br>
+    <br>
+              <span id="para1"> JSoftwareLabs </span>
+        </div>
+        <div class="content-section">
+            <h2> Compare Text Online </h2>
+            <ul class="points">
+                <li> Compare Text online free </li>
+                <li>Supports large file comparison </li>
+                <li> Ignore order and namespaces </li>
+                <li> Side By side diff view </li>
+                <li> Get results in tabular format for quick reference </li>
+                <li> TEXT diff tool </li>
+                <li> REST API </li>
+            </ul>
+        </div>
+        <footer>
+            <span> <strong> <span id="follow"> Follow me </span>  </strong> </span> 
+            <a href="https://twitter.com/i/flow/login?lang=en" target="blank">
+              <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/" target="blank">
+              <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank">
+              <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.google.com/" target="blank">
+              <i class="fa fa-google" aria-hidden="true"></i></a>
+        </footer>
+    </div>
+</body>
+</html>
